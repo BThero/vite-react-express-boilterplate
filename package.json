@@ -1,6 +1,5 @@
 {
-  "name": "vkcup-email-app",
-  "private": "true",
+  "name": "vite-react-express-boilterplate",
   "version": "0.0.0",
   "scripts": {
     "clean": "rimraf dist",

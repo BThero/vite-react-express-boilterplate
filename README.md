@@ -2,12 +2,15 @@
 
 > Quickly bootstrap a new project with Vite React Express Boilerplate.
 
-This boilerplate is a fork of [lmachens/vite-boilerplate](https://github.com/lmachens/vite-boilerplate), but replaces TypeScript with JavaScript and removes Storybook.
+This boilerplate is a fork of [joeynguyen/vite-react-express-boilerplate](https://github.com/joeynguyen/vite-react-express-boilerplate), but with these key differences:
+
+- Husky, stylelint and lintstaged have been removed
+- React, React-router, ESLint, Vite and all other libraries have been upgraded to latest versions.
 
 This boilerplate contains all the tools you need to build a modern web app with JavaScript, React, Vite, and Express.  
 You can use it to quickly bootstrap your project.
 
-ESLint, stylelint, prettier, husky and lintstaged are configured to give you a solid development experience.
+ESLint and prettier are configured to give you a solid development experience.
 
 ## Installing / Developing
 
@@ -63,10 +66,6 @@ In production, you have a single server serving everything.
 
 `/api/*` is the API endpoint.  
 `/*` is the client.
-
-## Tests
-
-A test runner is not installed (right now). But ESLint and Prettier are checked on commit and pushed thanks to husky and lintstaged.
 
 ## Licensing
 
